@@ -1,1 +1,377 @@
-# Power-BI_Visualization_Learning_Roadmap
+# Power BI Data Analytics Learning Journey 📊
+
+This repository documents my learning journey in **Power BI, Data Analytics, Business Intelligence, and Data Visualization**.
+
+The goal of this repository is to build practical knowledge step by step by learning how raw data can be transformed into meaningful insights and effective business decisions using Power BI.
+
+---
+
+## 📌 About Power BI
+
+Power BI is a Business Intelligence and Data Visualization platform developed by Microsoft.
+
+It helps users connect to multiple data sources, clean and transform data, build relationships, create calculations, design interactive dashboards, and communicate business insights effectively.
+
+A typical Power BI workflow can be represented as:
+
+**Connect → Transform → Model → Visualize → Share → Act**
+
+---
+
+## 🔄 Power BI Data-to-Insights Workflow
+
+### 1. Connect
+
+Power BI can connect to different types of data sources such as:
+
+* Excel
+* CSV files
+* SQL databases
+* Web sources
+* APIs
+* Cloud platforms
+* Business applications
+
+The first step is identifying and importing the required data.
+
+---
+
+### 2. Transform
+
+Raw data usually needs to be cleaned before analysis.
+
+Using **Power Query**, we can perform tasks such as:
+
+* Removing duplicates
+* Handling missing values
+* Changing data types
+* Renaming columns
+* Filtering unnecessary records
+* Splitting and merging columns
+* Combining multiple datasets
+* Creating calculated columns
+
+Clean data is essential for reliable analysis.
+
+---
+
+### 3. Model
+
+Data modeling connects different tables using relationships.
+
+A good Power BI data model helps improve:
+
+* Dashboard performance
+* Data accuracy
+* DAX calculations
+* Reporting flexibility
+
+Important concepts include:
+
+* Fact tables
+* Dimension tables
+* Primary keys
+* Foreign keys
+* One-to-many relationships
+* Star schema
+
+---
+
+## 🧮 DAX – Data Analysis Expressions
+
+DAX is the formula language used in Power BI to create calculations and measures.
+
+Example:
+
+DAX
+Total Sales =
+SUM(Sales[Amount])
+
+Example:
+
+DAX
+Total Profit =
+SUM(Sales[Profit])
+
+Example:
+DAX
+Profit Margin % =
+DIVIDE(
+    [Total Profit],
+    [Total Sales]
+)
+
+DAX helps convert raw business data into meaningful KPIs and analytical measures.
+
+---
+
+## 📊 Power BI Visualizations
+
+One of the most important skills in Power BI is choosing the correct visualization for the business question.
+
+### Comparison
+
+Useful for comparing values across categories.
+
+Common visuals:
+
+* Bar Chart
+* Column Chart
+* Clustered Bar Chart
+* Clustered Column Chart
+* Stacked Bar Chart
+* Stacked Column Chart
+
+Example:
+
+**Which product category generated the highest sales?**
+
+---
+
+### Trend
+
+Useful for analyzing changes over time.
+
+Common visuals:
+
+* Line Chart
+* Area Chart
+* Combination Chart
+* Ribbon Chart
+
+Example:
+
+**How have monthly sales changed over the last year?**
+
+---
+
+### Part-to-Whole
+
+Useful for understanding how different categories contribute to a total.
+
+Common visuals:
+
+* Pie Chart
+* Donut Chart
+* Treemap
+* Waterfall Chart
+
+Example:
+
+**What percentage of total revenue comes from each product category?**
+
+---
+
+### Distribution
+
+Useful for understanding patterns, variation, and spread within data.
+
+Examples include:
+
+* Histograms
+* Scatter Charts
+* Box-style analytical visuals
+
+These visualizations can help identify:
+
+* Outliers
+* Clusters
+* Distribution patterns
+* Unusual behavior
+
+---
+
+### Relationship Analysis
+
+Relationship-based visuals help identify connections between different variables.
+
+Examples:
+
+* Scatter Chart
+* Key Influencers
+* Decomposition Tree
+
+Example:
+
+**Does higher advertising spend result in higher sales?**
+
+---
+
+### Geospatial Analysis
+
+Power BI can visualize location-based information.
+
+Common visuals include:
+
+* Map
+* Filled Map
+* Azure Maps
+
+These are useful when analyzing:
+
+* Sales by region
+* Customer locations
+* Branch performance
+* Market coverage
+* Geographic trends
+
+---
+
+## 🎯 KPIs and Business Metrics
+
+Dashboards often need to communicate important metrics immediately.
+
+Common Power BI KPI visuals include:
+
+* Cards
+* Multi-row Cards
+* KPI Visuals
+* Gauges
+
+Example metrics:
+
+* Total Sales
+* Total Profit
+* Profit Margin
+* Total Customers
+* Number of Orders
+* Growth Rate
+
+KPIs help decision-makers quickly understand business performance.
+
+---
+
+## 💡 Dashboard Best Practices
+
+An effective dashboard should focus on clarity instead of displaying as many charts as possible.
+
+Some important principles include:
+
+* Understand the business question first
+* Know the target audience
+* Choose the correct visualization
+* Keep the design simple and clean
+* Maintain consistent formatting
+* Highlight important KPIs
+* Use filters and slicers appropriately
+* Avoid unnecessary visual clutter
+* Provide meaningful titles and labels
+* Use data storytelling
+
+---
+
+## 🧠 Key Learning
+
+One of the biggest lessons from learning Power BI is that:
+
+> A good dashboard is not the dashboard with the most charts. It is the dashboard that answers the business question clearly.
+
+Power BI allows analysts to transform the complete analytical process into:
+
+**Raw Data → Clean Data → Data Model → DAX → Visualization → Insight → Business Decision**
+
+---
+
+## 🛠 Skills Covered
+
+This repository will gradually include practical learning related to:
+
+* Power BI
+* Power Query
+* Data Cleaning
+* Data Transformation
+* Data Modeling
+* DAX
+* Data Visualization
+* Dashboard Development
+* KPI Analysis
+* Business Intelligence
+* Data Storytelling
+* Business Analytics
+
+---
+
+## 📂 Repository Structure
+
+```text
+Power-BI-Data-Analytics-Learning-Journey/
+│
+├── README.md
+│
+├── 01-Power-BI-Introduction/
+│
+├── 02-Power-Query/
+│
+├── 03-Data-Cleaning/
+│
+├── 04-Data-Modeling/
+│
+├── 05-DAX/
+│
+├── 06-Visualizations/
+│
+├── 07-Dashboard-Design/
+│
+├── 08-Power-BI-Projects/
+│
+└── Images/
+```
+
+Each folder can contain:
+
+* Learning notes
+* Practice datasets
+* Power BI files
+* Screenshots
+* Dashboard images
+* SQL or DAX examples
+* Project explanations
+
+---
+
+## 🚀 Learning Objective
+
+My objective is to build practical, job-ready skills in Data Analytics by understanding not only how Power BI works, but also how analysts use it to solve real business problems.
+
+The focus is on developing skills in:
+
+**Data Preparation + Analysis + Visualization + Business Understanding + Data Storytelling**
+
+---
+
+## 📈 Future Topics
+
+Upcoming additions to this repository may include:
+
+* Power Query transformations
+* Data modeling and relationships
+* Star schema
+* DAX fundamentals
+* Calculated columns vs measures
+* Time intelligence
+* Drill-through
+* Tooltips
+* Bookmarks
+* Filters and slicers
+* Interactive dashboards
+* Sales analytics dashboards
+* Customer analytics
+* Healthcare analytics
+* Business performance dashboards
+* End-to-end Power BI projects
+
+---
+
+## 🌟 Final Thought
+
+**Data has a story. Power BI helps us discover it, visualize it, and communicate it to support better decisions.**
+
+This repository will continue to grow as I learn, practice, build projects, and strengthen my Data Analytics and Business Intelligence skills.
+
+---
+
+### Connect
+
+If you are also learning Data Analytics or Power BI, feel free to explore the repository, share suggestions, and follow the learning journey.
+
+⭐ If you find the repository useful, consider starring it.
