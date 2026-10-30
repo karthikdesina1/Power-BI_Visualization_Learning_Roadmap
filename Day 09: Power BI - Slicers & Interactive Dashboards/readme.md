@@ -2,8 +2,6 @@
 
 A hands-on learning project covering **slicers** and **interactive dashboards** in Power BI: how to filter data visually and build reports users can explore without touching the underlying dataset.
 
-![Power BI Slicers Infographic](powerbi_slicers_linkedin.png)
-
 ## Overview
 
 Slicers are on-canvas visual filters. A user picks a value such as a date, region, category, product or customer, and every connected visual updates instantly. Combined with good layout, they turn a static report into an interactive dashboard.
